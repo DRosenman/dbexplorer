@@ -6,8 +6,5 @@ view_table <- function(df) {
                                                  c("25", "50", "100", "All"))))
 }
 
-write_table <- function(df, path) {
 
-
-}
 

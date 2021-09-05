@@ -4,23 +4,24 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-dbexplorer allows you to explorer any database you can connect to using the DBI package.
+dbexplorer provides a shiny app that allows you to explorer and download all tables in any database that you are able to connect to via the DBI package.
 
 ## Installation
 
-You can install the released version of dbexplorer from [CRAN](https://CRAN.R-project.org) with:
+
 
 ``` r
-install.packages("dbexplorer")
+devtools::install_github("drosenman/dbexplorer")
 ```
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+All you need is to create a database connection using the DBI package and pass that database connection to the `run_app` function. 
 
-``` r
+```r
 library(dbexplorer)
-db <- DBI::db_connect(RSQLite::SQLite(), dbexplorer_example_db("northwind.sqlite"))
-dbexplorer(db)
+db <- DBI::db_connect(RSQLite::SQLite(), sample_database())
+run_app(db)
 ```
+
 
