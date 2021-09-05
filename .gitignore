@@ -3,3 +3,5 @@ docs
 .Rhistory
 .RData
 .Ruserdata
+*.pper
+*.pper
