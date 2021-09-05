@@ -1,0 +1,4 @@
+
+
+test <- DBI::dbConnect(RSQLite::SQLite(), "inst/extdata/chinook.sqlite")
+dbexplorer(test, disconnect_on_exit = T)

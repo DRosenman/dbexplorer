@@ -1,0 +1,26 @@
+{
+    "id": "BA2CBFE1",
+    "path": "~/dbexplorer/R/dbexplorer.R",
+    "project_path": "R/dbexplorer.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1630250255057.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "52,0",
+        "scrollLine": "36"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1630855759,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1630855759364,
+    "read_only": false,
+    "read_only_alternatives": []
+}
