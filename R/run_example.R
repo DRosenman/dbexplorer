@@ -1,4 +1,6 @@
-#' Run the app and dbexplorer shiny app using the `chinook` database
+#' Explorer the sample `chinook` database
+#'
+#'   Example app run using popular `chinook` sample database.
 #'
 #'
 #' @return

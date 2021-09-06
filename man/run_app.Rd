@@ -2,8 +2,7 @@
 % Please edit documentation in R/app.R
 \name{run_app}
 \alias{run_app}
-\title{Function to launch application for browsing database
-The apps allows you to load, preview, and/or save any table in your database.}
+\title{shiny database explorer app}
 \usage{
 run_app(db, disconnect_on_exit = FALSE)
 }
@@ -18,7 +17,7 @@ run_app(db, disconnect_on_exit = FALSE)
 shiny application object
 }
 \description{
-Function to launch application for browsing database
+Function to launch a shiny application for browsing database.
 The apps allows you to load, preview, and/or save any table in your database.
 }
 \examples{

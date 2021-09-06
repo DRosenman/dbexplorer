@@ -2,7 +2,7 @@
 % Please edit documentation in R/run_example.R
 \name{run_example}
 \alias{run_example}
-\title{Run the app and dbexplorer shiny app using the `chinook` database}
+\title{Explorer the sample `chinook` database}
 \usage{
 run_example()
 }
@@ -10,5 +10,5 @@ run_example()
 
 }
 \description{
-Run the app and dbexplorer shiny app using the `chinook` database
+Example app run using popular `chinook` sample database.
 }

@@ -1,5 +1,6 @@
+#' shiny database explorer app
 #'
-#' Function to launch application for browsing database
+#' Function to launch a shiny application for browsing database.
 #' The apps allows you to load, preview, and/or save any table in your database.
 #'
 #' @param db database connection
