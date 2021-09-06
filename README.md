@@ -19,8 +19,8 @@ devtools::install_github("drosenman/dbexplorer")
 All you need is to create a database connection using the DBI package and pass that database connection to the `run_app` function. A shiny app will then run which will allow you to view all tables in the database and have the option to export tables.
 ```r
 library(dbexplorer)
-db <- DBI::db_connect(RSQLite::SQLite(), sample_database())
+db <- DBI::dbConnect(RSQLite::SQLite(), sample_database())
 run_app(db)
 ```
 
-
+<img src="man/figures/example.PNG">
