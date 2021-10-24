@@ -2,8 +2,8 @@ Package: dbexplorer
 Type: Package
 Title: View and export database tables using shiny
 Version: 0.1.0
-Author: Dave Rosenman
-Maintainer: The package maintainer <drosenman87@gmail.com>
+Authors@R: person("Dave", "Rosenman", email = "daverosenman@gmail.com",
+                  role = c("aut", "cre"))
 Description: Explorer databases in shiny. 
     The package's `run_app` function launches a shiny application that allows you to preview, view, and export all tables in a database. Simply create a database connection using the DBI package and pass it to the `run_app` function.  
 License: MIT + file LICENSE
